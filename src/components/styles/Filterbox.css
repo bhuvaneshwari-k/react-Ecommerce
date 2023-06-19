@@ -1,0 +1,52 @@
+.left-aside{
+    width: 25%;
+    padding: 10px;
+    background-color:purple;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    border: 10px solid black;
+}
+.left-aside h1{
+    background-color: darkgrey;
+}
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    list-style: none;
+    margin-right: 40px;
+}
+.side-bar a{
+    text-decoration: none;
+    font-size:25px;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+
+.side-bar-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 25px; */
+    
+}
+
+.side-bar-button button{
+    height: auto;
+    width: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    justify-content:center;
+    padding:5px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.side-bar-button button:hover {
+    box-shadow: 0 0 10px rgb(36, 34, 34);
+}
